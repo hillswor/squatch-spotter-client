@@ -16,7 +16,7 @@ function ReportSighting({ loggedIn, user }) {
     e.preventDefault();
 
     let response = await fetch(
-      "https://sqautch-spotter-server.onrender.com/locations",
+      "https://squatch-spotter-server.onrender.com/locations",
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -36,7 +36,7 @@ function ReportSighting({ loggedIn, user }) {
     let locationData = await response.json();
 
     response = await fetch(
-      "https://sqautch-spotter-server.onrender.com/sightings",
+      "https://squatch-spotter-server.onrender.com/sightings",
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },

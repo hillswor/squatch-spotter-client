@@ -24,7 +24,7 @@ function Signup({ onLogin }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validateEmail(email)) {
-      fetch("https://sqautch-spotter-server.onrender.com/users", {
+      fetch("https://squatch-spotter-server.onrender.com/users", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

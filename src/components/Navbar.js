@@ -6,7 +6,7 @@ function Navbar({ loggedIn, onLogout }) {
   const history = useHistory();
 
   function handleLogout() {
-    fetch("https://sqautch-spotter-server.onrender.com/logout", {
+    fetch("https://squatch-spotter-server.onrender.com/logout", {
       method: "DELETE",
     })
       .then((r) => {

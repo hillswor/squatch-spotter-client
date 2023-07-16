@@ -13,7 +13,7 @@ function EditSighting() {
   const [error, setError] = useState("");
 
   useEffect(() => {
-    fetch(`https://sqautch-spotter-server.onrender.com/sightings/${id}`)
+    fetch(`https://squatch-spotter-server.onrender.com/sightings/${id}`)
       .then((response) => response.json())
       .then((data) => {
         setLocationName(data.location.name);
@@ -38,7 +38,7 @@ function EditSighting() {
       "0"
     )}`;
 
-    fetch(`https://sqautch-spotter-server.onrender.com/sightings/${id}`, {
+    fetch(`https://squatch-spotter-server.onrender.com/sightings/${id}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({

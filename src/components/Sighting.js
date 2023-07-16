@@ -7,7 +7,7 @@ function Sighting({ match, loggedIn, user }) {
 
   useEffect(() => {
     fetch(
-      `https://sqautch-spotter-server.onrender.com/sightings/${match.params.id}`
+      `https://squatch-spotter-server.onrender.com/sightings/${match.params.id}`
     )
       .then((response) => response.json())
       .then((data) => setSighting(data));
@@ -30,7 +30,7 @@ function Sighting({ match, loggedIn, user }) {
       comment_text: commentText,
     };
 
-    fetch("https://sqautch-spotter-server.onrender.com/comments", {
+    fetch("https://squatch-spotter-server.onrender.com/comments", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(comment),

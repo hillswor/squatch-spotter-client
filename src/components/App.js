@@ -19,7 +19,7 @@ function App() {
   }, []);
 
   const checkUserSession = () => {
-    fetch("https://sqautch-spotter-server.onrender.com/check-session")
+    fetch("https://squatch-spotter-server.onrender.com/check-session")
       .then((response) => response.json())
       .then((data) => {
         if (data.id) {
@@ -42,7 +42,7 @@ function App() {
   };
 
   const handleLogout = () => {
-    fetch("https://sqautch-spotter-server.onrender.com/logout", {
+    fetch("https://squatch-spotter-server.onrender.com/logout", {
       method: "DELETE",
     })
       .then(() => {

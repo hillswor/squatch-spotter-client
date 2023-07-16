@@ -6,7 +6,7 @@ function MyAccount({ user }) {
 
   useEffect(() => {
     fetch(
-      `https://sqautch-spotter-server.onrender.com/users/${user.id}/sightings`
+      `https://squatch-spotter-server.onrender.com/users/${user.id}/sightings`
     )
       .then((response) => response.json())
       .then((data) => {
@@ -19,7 +19,7 @@ function MyAccount({ user }) {
 
   const handleDeleteSighting = (sightingId) => {
     fetch(
-      `https://sqautch-spotter-server.onrender.com/sightings/${sightingId}`,
+      `https://squatch-spotter-server.onrender.com/sightings/${sightingId}`,
       {
         method: "DELETE",
       }

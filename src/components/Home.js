@@ -5,7 +5,7 @@ function Home() {
   const [sightings, setSightings] = useState([]);
 
   useEffect(() => {
-    fetch("https://sqautch-spotter-server.onrender.com/sightings")
+    fetch("https://squatch-spotter-server.onrender.com/sightings")
       .then((response) => response.json())
       .then((data) => setSightings(data));
   }, []);

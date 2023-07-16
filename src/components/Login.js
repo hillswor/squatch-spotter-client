@@ -9,7 +9,7 @@ function Login({ onLogin }) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    fetch("https://sqautch-spotter-server.onrender.com/login", {
+    fetch("https://squatch-spotter-server.onrender.com/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email, password }),
