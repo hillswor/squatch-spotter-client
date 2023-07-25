@@ -10,7 +10,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/hillswor/squatch-spotter-client">
-    <img src="public/namaka-logo.svg" alt="Logo" width="100" height="100">
+    <img src="src/assets/squatch-spotter-logo.svg" alt="Logo" width="100" height="100">
   </a>
 
 <h3 align="center">Squatch Spotter</h3>
