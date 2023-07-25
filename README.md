@@ -16,7 +16,7 @@
 <h3 align="center">Squatch Spotter</h3>
 
   <p align="center">
-    The client side of a full-stack application that hopes to change how sasquatch believers track and explore sightings. Using Create React App for the front-end and Python Flask for the back-end API, Squatch Spotter connects seamlessly to a PostgreSQL database, creating a comprehensive hub for reporting and discussing these elusive creatures.
+    The client side of a full-stack application that hopes to change how sasquatch believers track and explore sightings.
     <br />
     <a href="https://squatch-spotter-client.vercel.app/">View Deployed App</a>
     ·
@@ -54,13 +54,11 @@
 ## About The Project
 
 <div align="center">
-    <img src="screenshots/namaka-root-img.png" alt="Screenshot of Home Page" width="400" height="300">
+    <img src="screenshots/squatch-spotter-root.png" alt="Screenshot of Home Page" width="400" height="300">
 </div>
 
 
-With Namaka, users can track and manage aspects of their saltwater aquariums. The user-friendly platform enables users to monitor various parameters crucial to maintaining a healthy aquatic environment. Each aquarium gets its dedicated dashboard, where you can log information, analyze trends, and optimize care routines.
-
-Moreover, Namaka aims to be home to a thriving community with an interactive message board that allows users to ask questions, share experiences, offer advice, or simply engage in conversation.
+Squatch Spotter uses Create React App in conjunction with TailwindCSS for the front-end and Python Flask for the back-end API that connects seamlessly to a PostgreSQL database.  The dynamic and user-friendly interface allows enthusiasts to effortlessly log sightings, including details like location, date, and time, creating a comprehensive database of encounters for analysis. The app fosters an active community where users can share their experiences, insights, and theories, encouraging lively discussions and camaraderie.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -68,7 +66,7 @@ Moreover, Namaka aims to be home to a thriving community with an interactive mes
 
 ### Built With
 
- [![Next][Next.js]][Next-url]
+ [![CreateReactApp][CreateReactApp]][CreateReactApp-url]
  [![React][React.js]][React-url]
  [![TailwindCSS][Tailwind]][Tailwind-url]
 
@@ -204,8 +202,8 @@ Project Link: [https://github.com/hillswor/squatch-spotter-client](https://githu
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/bruce-hillsworth
 [product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
+[CreateReactApp]: https://img.shields.io/badge/create_react_app-000000?style=for-the-badge&logo=createreactapp&logoColor=white
+[CreateReactApp-url]: https://create-react-app.dev
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Tailwind]: https://img.shields.io/badge/tailwindcss-000000?style=for-the-badge&logo=tailwindcss&logoColor=61DAFB
