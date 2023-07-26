@@ -100,52 +100,63 @@ All remaining components can be found in the components directory within the src
 
 ## Usage
 
-Once logged in, users can go to the "My Account" page to edit or delete existing aquariums.
-
+On the home page, users will be greeted with a collection of sasquatch sightings:  
 <div align="center">
-    <img src="screenshots/namaka-my-account.png" alt="Screenshot of 'My Account' page" width="400" height="300">
+    <img src="screenshots/squatch-spotter-home.png" alt="Screenshot of home page" width="400" height="300">
 </div>
 <br />
-Clicking "View" will take the user to the aquarium page where they can view a chart of all the logged water parameters for that aquarium or log new parameters.
+They can also use the navbar links to navigate to the login page:
 <br />
 <br />
 <div align="center">
-    <img src="screenshots/namaka-aquarium-page.png" alt="Screenshot of 'Aquarium' page" width="400" height="300">
+    <img src="screenshots/squatch-spotter-root.png" alt="Screenshot of login page" width="400" height="300">
 </div>
 <br />
+The sign up page:
+<br />
+<br />
 <div align="center">
-    <img src="screenshots/namaka-water-parameters.png" alt="Screenshot of 'Water Parameter' page" width="400" height="300">
+    <img src="screenshots/squatch-spotter-signup.png" alt="Screenshot of signup page" width="400" height="300">
 </div>
 <br />
-Users can also communicate with other users via the message board(The majority of current messages are from seed data via the Faker library so it is jibberish)
+If a user navigates to the "Report Sighting" link it will ask them to sign up or log in to report a  sighting.
 <br />
 <br />
 <div align="center">
-    <img src="screenshots/namaka-message-board.png" alt="Screenshot of 'Message Board' page" width="400" height="300">
+    <img src="screenshots/squatch-spotter-login-signup.png" alt="Screenshot of 'Report Sighting' page when accessed without being logged in" width="400" height="300">
 </div>
 <br />
+Once logged in the user is automatically directed the their my account page:
 <div align="center">
-    <img src="screenshots/namaka-comment-form.png" alt="Screenshot of comment form on 'Message Board'" width="400" height="300">
+    <img src="screenshots/squatch-spotter-my-account.png" alt="Screenshot of My Account page" width="400" height="300">
 </div>
 <br />
-<div align="center">
-    <img src="screenshots/namaka-comment-form.png" alt="Screenshot of comment form on 'Message Board'" width="400" height="300">
-</div>
+From the My Account page, they can edit or delete sightings if they exist:
 <br />
 <div align="center">
-    <img src="screenshots/namaka-comment-posted.png" alt="Screenshot of comment posted" width="400" height="300">
+    <img src="screenshots/squatch-spotter-edit-sighting.png" alt="Screen shot of 'Edit Sighting' form" width="400" height="300">
+</div>
+<br />
+They can also click "Sighting Details" to view more about a sighting and post a comment ont he sighting:
+<div align="center">
+    <img src="screenshots/squatch-spotter-sighting-details.png" alt="Screenshot of 'Sighting Details' page" width="400" height="300">
+</div>
+<div align="center">
+    <img src="screenshots/squatch-spotter-comment-form.png" alt="Screenshot of comment form" width="400" height="300">
+</div>
+<div align="center">
+    <img src="screenshots/squatch-spotter-posted-comment.png" alt="Screenshot of posted comment" width="400" height="300">
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Roadmap
 
-- [ ] Add ability for user to upload photo of their aquarium
+- [ ] Add ability for users to upload photos or videos of sightings
 - [ ] Add ability for users to follow/friend other users 
-- [ ] Add ability for aquarium owner to temporarily share aquarium with follower/friend
-  - [ ] Grant access to log parameters to shared follower/friend
-- [ ] Change my account page to tabs
-- [ ] Add search and filters to message board
+- [ ] Ensure login persists
+- [ ] Remove sightings from home page
+- [ ] Add ability to filter and sort sightings
 
 See the [open issues](https://github.com/hillswor/namaka-client/issues) for a full list of proposed features (and known issues).
 
@@ -182,10 +193,6 @@ Bruce Hillsworth - [@bhillsworth](https://twitter.com/bhillsworth) - bruce.hills
 Project Link: [https://github.com/hillswor/squatch-spotter-client](https://github.com/hillswor/squatch-spotter-client)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Acknowledgments
-
-* [Dave Gray](https://www.youtube.com/watch?v=843nec-IvW0&t=3096s)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
